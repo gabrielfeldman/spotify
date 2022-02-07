@@ -1,6 +1,6 @@
 ## Descripción :green_heart:
 
-Pequeño proyecto realizado durante el curso de Desarrollo Web de la Escuela Da Vinci. La idea era imitar la web de Spotify [(https://www.spotify.com/ar/premium/)](https://www.spotify.com/ar/premium/) utilizando Bootstrap. Para cuestiones puntuales de diseño se utilizaron algunas lineas de CSS propias. 
+Pequeño proyecto realizado durante el curso de Desarrollo Web de la Escuela Da Vinci. La idea era imitar la web de Spotify ([https://www.spotify.com/ar/premium/](https://www.spotify.com/ar/premium/)) utilizando Bootstrap. Para cuestiones puntuales de diseño se utilizaron algunas lineas de CSS propias. 
 
 ## Autor ✒️
 **Gabriel Feldman**
