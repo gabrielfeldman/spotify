@@ -1,0 +1,254 @@
+:root {
+  --spotify--primary: rgb(30, 215, 96);
+  --spotify--secondary: rgb(29, 117, 222);
+  --spotify--light-green: rgb(195, 240, 201);
+}
+
+.bg-spotify-lightgreen {
+  background-color: var(--spotify--light-green);
+}
+
+.bg-spotify-secondary {
+  background-color: var(--spotify--secondary);
+}
+
+.border-spotify-secondary {
+  border-color: var(--spotify--secondary);
+}
+
+.text-spotify-primary {
+  color: var(--spotify--primary);
+}
+
+.text-spotify-secondary {
+  color: var(--spotify--secondary);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.btn,
+dt {
+  letter-spacing: 2px;
+  font-size: 0.87rem;
+}
+
+.btn:hover {
+  transform: scale(104%);
+  transition: all 0.2s;
+}
+
+.btn-dark {
+  background-color: #111;
+}
+
+.cta-outline-top:hover {
+  background-color: rgb(243, 250, 245);
+}
+
+.cta-black-top:focus,
+.cta-outline-top:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px var(--spotify--light-green), 0 0 0 6px rgb(15, 15, 15) !important;
+}
+
+.cta-black:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgb(255, 255, 255), 0 0 0 6px rgb(15, 15, 15) !important;
+}
+
+.small {
+  font-size: 0.75rem;
+}
+
+.custom-divider {
+  width: 16px;
+  height: 4px !important;
+  color: #fafafa;
+  visibility: hidden;
+}
+
+.custom-divider::before {
+  content: "|";
+  visibility: visible;
+  position: absolute;
+  transform: translateY(-25%);
+  padding-left: 4px;
+}
+
+.navbar-brand > img {
+  max-width: 132px;
+}
+
+.offcanvas-title > img {
+  max-width: 89px;
+}
+
+.offcanvas-logo {
+  order: 3;
+}
+
+.offcanvas-body {
+  font-size: 0.9rem;
+}
+
+.navbar-toggler,
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:focus,
+.offcanvas-header > button,
+.offcanvas-header > button:hover .offcanvas-header > button:active,
+.offcanvas-header > button:focus {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+header a:hover,
+header a:active,
+footer a:hover,
+footer a:active {
+  color: var(--spotify--primary) !important;
+}
+
+.legal-disclaimer-top {
+  font-weight: 600;
+}
+
+.list-item-premium {
+  width: 142px;
+  height: 142px;
+  flex: 0 0 100px;
+  margin-right: 20px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.premium-1 {
+  background-image: url(../img/premium-benefits-1.png);
+}
+
+.premium-2 {
+  background-image: url(../img/premium-benefits-2.png);
+}
+.premium-3 {
+  background-image: url(../img/premium-benefits-3.png);
+}
+.premium-4 {
+  background-image: url(../img/premium-benefits-4.png);
+}
+
+.plan-credit-card-list {
+  width: 29px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.card-1 {
+  background-image: url(../img/visa_card.svg);
+}
+.card-2 {
+  background-image: url(../img/mastercard_card.svg);
+}
+.card-3 {
+  background-image: url(../img/naranja_card.svg);
+}
+.card-4 {
+  background-image: url(../img/cabal_card.svg);
+}
+
+.card-5 {
+  background-image: url(../img/diners_card.svg);
+}
+
+.card-6 {
+  background-image: url(../img/amex_card.svg);
+}
+
+.card-7 {
+  background-image: url(../img/pago-facil.svg);
+}
+
+.card-8 {
+  background-image: url(../img/rapi-pago.svg);
+}
+
+#moreCardsHover {
+  position: relative;
+  cursor: default;
+}
+
+#moreCards {
+  width: 140px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  background-color: #fafafa;
+  box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  visibility: hidden;
+}
+
+#moreCardsHover:hover #moreCards
+ {
+  visibility: visible;
+}
+
+.social-items > a {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #222;
+  color: #fafafa;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-bootstrap-primary {
+  color: #7952b3;
+}
+
+@media all and (max-width: 974px) {
+  .offcanvas-body {
+    padding-top: 0;
+  }
+
+  .nav-link {
+    padding: 0 0 10px !important;
+    font-weight: 600 !important;
+  }
+
+  .nav-item:nth-child(1),
+  .nav-item:nth-child(2),
+  .nav-item:nth-child(3) {
+    font-size: 2rem !important;
+  }
+
+  .nav-item:nth-child(5),
+  .nav-item:nth-child(6) {
+    font-size: 1.5rem !important;
+  }
+
+  .navbar-brand > img {
+    max-width: 89px;
+  }
+
+  .custom-divider {
+    visibility: visible;
+  }
+
+  .custom-divider::before {
+    visibility: hidden;
+  }
+
+}
